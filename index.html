@@ -1,0 +1,335 @@
+<html>
+<head>
+<title>Company</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script type="text/javascript"src="js/script.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+
+
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header"style="margin-left:150px;">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage"><img src="images/13035467_531467160359023_771129679_o.png" id="logo"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar" style="margin-right:120px;  margin-top: 11px">
+      <ul class="nav navbar-nav navbar-right">
+            
+ <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Ana səhifə
+         <!--  <span class="caret"></span></a> -->
+          <ul class="dropdown-menu">
+                            <li><a href="#"> </a></li>
+                            
+          </ul>
+        </li>
+
+
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Toyların təşkili
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+                            <li><a href="#">Şadlıq sarayları</a></li>
+                            <li><a href="#">Maşın</a></li>
+                            <li><a href="#">Müğənni sifarişi</a></li>
+                            <li><a href="#">Gül salonu</a></li>
+                            <li><a href="#">Fotoqraf</a></li>
+                            <li><a href="#">Rəqs qrupu</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Toya hazırlıq
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+                            <li><a href="#">Gəlinliklər və gəlin aksesuarları</a></li>
+                            <li><a href="#">Tort və xonçaların hazırlanması</a></li>
+                            <li><a href="#">Bəy paltarları</a></li>
+                            <li><a href="#">Ziyafət geyimləri</a></li>
+                            <li><a href="#">Zinət əşyaları</a></li>
+                            <li><a href="#">Vizaj və saç düzümləri</a></li>
+          </ul>
+        </li>
+
+       <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Özəl xidmətlər
+           <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+                            <li><a href="#">Xinayaxdinin təşkili</a></li>
+                            <li><a href="#">Evlilik təklifinin təşkili</a></li>
+                            <li><a href="#">Love Site</a></li>
+                            <li><a href="#">Özəl toyların təşkili</a></li>
+                            <li><a href="#">Bal ayı</a></li>
+                            <li><a href="#">Atəş fəşanlığın təşkili</a></li>
+                            <li><a href="#">Xareoqraf</a></li>
+             </ul>
+        </li>
+
+       
+         
+        <li><a href="#"   data-toggle="modal" data-target="#myqeydiyyat" title="Qeydiyyat"><span class="glyphicon glyphicon-user"></span> </a></li>
+        <li><a href="#"  data-toggle="modal" data-target="#mydaxilol" title="Daxil ol"><span class="glyphicon glyphicon-log-in"></span> </a></li> 
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Qeydiyyat -->
+  <div class="modal fade" id="myqeydiyyat" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- qeydiyyat-->
+      <div class="modal-content">
+        <div class="modal-header" style="background-color:#CA367A;">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4>Qeydiyyatdan keç</h4>
+        </div>
+        <div class="modal-body">
+          <form role="form">
+            <div class="form-group">
+              <input type="text" class="form-control" id="email" placeholder="Emailinizi daxil edin">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" id="psw" placeholder="Şifrənizi daxil edin">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="name" placeholder="Adınızı və Soyadınızı daxil edin">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="surname" placeholder="İstifadəçi və ya Şirkət olaraq qeydiyyatdan keçdiyinizi bildirin">
+            </div>
+
+              <button type="submit" class="btn btn-block">Qeyd ol
+                <span class="glyphicon glyphicon-ok"></span>
+              </button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+            <span class="glyphicon glyphicon-remove"></span>Çıxış
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- daxil ol -->
+  <div class="modal fade" id="mydaxilol" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- daxil ol-->
+      <div class="modal-content">
+        <div class="modal-header" style="background-color:#CA367A;">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4>Daxil ol</h4>
+        </div>
+        <div class="modal-body">
+          <form role="form">
+            <div class="form-group">
+              <input type="text" class="form-control" id="mail" placeholder="Emailinizi daxil edin">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" id="pass" placeholder="Şifrənizi daxil edin">
+            </div>
+                            <p class="form-bottom-message"><a href="#0"> Parolunuzu unutmusunuz?</a></p>
+              <button type="submit" class="btn btn-block">Daxil ol
+                <span class="glyphicon glyphicon-ok"></span>
+              </button>
+          </form>
+        </div>
+        <div class="modal-footer">
+        <p class="fieldset">
+                                    <input type="checkbox" id="remember-me" checked>
+                                    <label for="remember-me">Məni xatırla</label>
+                                </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+           <!-- the end of Menu -->
+	<!--  -->
+
+
+
+
+
+<!-- Start cssSlider.com -->
+
+  <div class='csslider1 autoplay '>
+    <input name="cs_anchor1" id='cs_slide1_0' type="radio" class='cs_anchor slide' >
+    <input name="cs_anchor1" id='cs_slide1_1' type="radio" class='cs_anchor slide' >
+    <input name="cs_anchor1" id='cs_slide1_2' type="radio" class='cs_anchor slide' >
+    <input name="cs_anchor1" id='cs_play1' type="radio" class='cs_anchor' checked>
+    <input name="cs_anchor1" id='cs_pause1' type="radio" class='cs_anchor' >
+    <ul>
+      <div style="width: 100%; visibility: hidden; font-size: 0px; line-height: 0;">
+        <img src="http://cssslider.com/sliders/pen/images/buns.jpg" style="width: 100%;">
+      </div>
+      <li class='num0 img'>
+         <a href="#" target=""><img src='images/wedding-group.jpg' alt='Buns' title='Yeni başlanğıc et' /> </a> 
+      </li>
+      <li class='num1 img'>
+         <a href="#" target=""><img src='images/pár.jpg' alt='Croissant' title='Yeni başlanğıc et' /> </a> 
+      </li>
+      <li class='num2 img'>
+         <a href="#" target=""><img src='images/Southern-Wedding-Planner-640x428.jpg' alt='Lemon pie' title='Yeni başlanğıc et' /> </a> 
+      </li>
+    
+    </ul>
+
+    <div class='cs_description'>
+      <label class='num0'>
+        <span class="cs_title"><span class="cs_wrapper"></span>İlk    addımı    at</span>
+      </label>
+      <label class='num1'>
+        <span class="cs_title"><span class="cs_wrapper">   </span>Həyatında    yeni    səhifə   aç</span>
+      </label>
+      <label class='num2'>
+        <span class="cs_title"><span class="cs_wrapper">Sevdiyin   ilə    birgə   yeni   başlanğıc   et</span></span>
+      </label>
+    </div>
+    
+    <div class='cs_arrowprev'>
+      <label class='num0' for='cs_slide1_0'></label>
+      <label class='num1' for='cs_slide1_1'></label>
+      <label class='num2' for='cs_slide1_2'></label>
+    </div>
+    <div class='cs_arrownext'>
+      <label class='num0' for='cs_slide1_0'></label>
+      <label class='num1' for='cs_slide1_1'></label>
+      <label class='num2' for='cs_slide1_2'></label>
+    </div>
+    
+    <div class='cs_bullets'>
+      <label class='num0' for='cs_slide1_0'>
+        <span class='cs_point'></span>
+        <span class='cs_thumb'></span>
+      </label>
+      <label class='num1' for='cs_slide1_1'>
+        <span class='cs_point'></span>
+        <span class='cs_thumb'></span>
+      </label>
+      <label class='num2' for='cs_slide1_2'>
+        <span class='cs_point'></span>
+        <span class='cs_thumb'></span>
+      </label>
+    </div>
+   
+ </body>
+    <!-- End cssSlider.com -->
+
+
+
+
+ <!-- Container (The Band Section) -->
+
+<div id="band" class="container text-center" style=" font-size: x-large;
+    height: auto;
+    border: 1px solid rgba(150, 138, 138, 0.99);
+    font-family: serif;
+    color: #666071;
+    background: rgba(245, 245, 245, 0.8);
+    border-radius: 20px;
+    margin-top: 51px;
+    box-shadow: 1px 5px 22px #888888;">
+  <h3 style="margin-top:-38px;text-align:center">Yeni həyata ilk addımlarla </h3>
+
+ <hr style="border: 1px solid rgba(11, 18, 107, 0.85);
+    width: 394px;"> 
+
+  <p  class="pp">Mariage.az    Azərbaycanda  yeni  bir  işə  imza  ataraq  sizlərin  ailə  həyatında  atacağınız  ilk  addımlarda  sizə  daha  yaxından  kömək  etmək  və  həmçinin  ailə  quran  cütlüklərimizin  toy  hazırlıqlarını  asanlaşdırmaq  məqsədilə  qurulmuş  bir  saytdır. Məqsədimiz  sizə  ən  sərfəli  və  rahat, həmçinin  toylarınızın  unudulmaz  şəkildə  təşkilinə  yardımçı  olmaqdır. Gənc  cütlüklərimiz  bizim  təklif  etdiyimiz  tarif  paketlərindən  yararlanaraq  həm  zamana, həm  də  büdcəyə  qənaət  etmiş  olacaqlar.
+    Yeni  həyata  ilk  addimlarinizi  bizimlə  atın</p>
+  <br>
+
+             <!--The end of Container (The Band Section) -->
+
+
+
+ <!-- TEKLIFLER -->
+      <main id='container'>
+  <!-- BASIC -->
+  <fieldset class='frame basic'>
+    <legand class='title'>Simple</legand>
+    <ul class='inset'>
+    
+      <li class='desc'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquaLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+    </ul>
+    
+    <button class='purchase'>Ətraflı</button>
+
+  </fieldset>
+  <!-- NORMAL -->
+  <fieldset class='frame normal'>
+    <legand class='title'>Classic</legand>
+    <ul class='inset'>
+     <li class='desc'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquaLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+    </ul>
+    <button class='purchase'>Ətraflı</button>
+  </fieldset>
+  <!-- PREMIUM -->
+  <fieldset class='frame premium'>
+    <legand class='title'>Premium</legand>
+     <ul class='inset'>
+     <li class='desc'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquaLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+    </ul>
+     <button class='purchase'>Ətraflı</button>
+  </fieldset>
+
+  <fieldset class='frame premium' id="pere">
+    <legand class='title' style="background: #305651;">Love site</legand>
+     <div class="item">
+        <img src="https://cdn.designorbital.com/wp-content/uploads/2016/04/Jack-Rose-WordPress-Wedding-Theme.jpg" />
+        <div class="overlay"><h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquaLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h1></div> 
+        <button class='purchase' style="    position: relative;
+    top: inherit;">Ətraflı</button>
+    </div>
+    
+  </fieldset>
+
+  <fieldset class='frame premium' id="zaz">
+    <legand class='title' style="background: #305651;">Evlilik teklifi</legand>
+     <div class="item">
+        <img src="http://www.cardinalbridal.com/wp-content/uploads/2015/01/benefits-of-Wedding-Website3.jpg" />
+        <div class="overlay"><h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquaLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h1></div> 
+        <button class='purchase' style="    position: relative;
+    top: inherit;">Ətraflı</button></div>
+  </fieldset>
+</main>
+
+
+
+   <!--  Social part -->
+
+
+  <div id="redessociales" title="Bizimle elaqa">
+          <a class="smedia facebook" href="https://www.facebook.com/josernitos">Uno</a>
+          <a class="smedia twitter" href="http://www.twitter.com/josernitos">Dos</a>
+          <a class="smedia instagram" href="#">Tres</a>
+          <a class="smedia youtube" href="#">Cuatro</a>
+          <a class="smedia vimeo" href="#">Cinco</a>
+          <a class="smedia email" href="#">Seis</a>
+</div>
+
+
+
